@@ -14,3 +14,4 @@ Link to the Hacker Rank Problems are given below:
 * FindDigits: https://www.hackerrank.com/challenges/find-digits
 * Forming Magic Square: https://www.hackerrank.com/challenges/magic-square-forming
 * Utopian Tree: https://www.hackerrank.com/challenges/utopian-tree/problem
+* 2D-Array: https://www.hackerrank.com/challenges/2d-array/problem
