@@ -9,6 +9,7 @@ public class SingleDigits {
         }
     }
 
+    // Recursive Solution for Digits
     static void findDigitsRecursive(int n) {
         if((n/10)>0){
             findDigitsRecursive(n/10);
@@ -16,6 +17,7 @@ public class SingleDigits {
         System.out.println(n%10);
     }
 
+    // String Manipulation Solution for Digits
     static void findDigitsStringConvertion(int n) {
         for(char c: String.valueOf(n).toCharArray()){
             System.out.println(String.valueOf(c));

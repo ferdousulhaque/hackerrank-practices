@@ -6,3 +6,9 @@ This git is regarding the hackerrank practices and solutions.
 The below data structures and concepts are involved.
 
 * Number Manipulation
+
+## Problems
+
+Link to the Hacker Rank Problems are given below:
+
+* FindDigits: https://www.hackerrank.com/challenges/find-digits
