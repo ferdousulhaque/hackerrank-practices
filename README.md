@@ -12,3 +12,4 @@ The below data structures and concepts are involved.
 Link to the Hacker Rank Problems are given below:
 
 * FindDigits: https://www.hackerrank.com/challenges/find-digits
+* Forming Magic Square: https://www.hackerrank.com/challenges/magic-square-forming

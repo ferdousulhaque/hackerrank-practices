@@ -14,10 +14,10 @@ public class FindDigits {
         count = 0;
 
         for(char c : String.valueOf(n).toCharArray()) {
-        if((Integer.parseInt(String.valueOf(c)) >0) && (n % Integer.parseInt(String.valueOf(c))) == 0){
-            count++;
+                if((Integer.parseInt(String.valueOf(c)) >0) && (n % Integer.parseInt(String.valueOf(c))) == 0){
+                    count++;
+                }
         }
-}
         return count;
     }
 
