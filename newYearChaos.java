@@ -7,7 +7,7 @@ import java.util.concurrent.*;
 import java.util.regex.*;
 
 public class newYearChaos {
-
+    // It can be solved using Bubble Sort but it will create timeout
     // Complete the minimumBribes function below.
     static void minimumBribes(int[] q) {
         int ans = 0;
