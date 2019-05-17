@@ -20,3 +20,6 @@ Link to the Hacker Rank Problems are given below:
 * Two Strings: https://www.hackerrank.com/challenges/two-strings/problem
 * Left Rotation: https://www.hackerrank.com/challenges/array-left-rotation
 * Codility:  
+* Book Page: https://www.hackerrank.com/challenges/drawing-book
+* New Year Chaos: https://www.hackerrank.com/challenges/new-year-chaos
+* Print Singly Linked List: https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list
