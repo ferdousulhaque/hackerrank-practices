@@ -23,3 +23,6 @@ Link to the Hacker Rank Problems are given below:
 * Book Page: https://www.hackerrank.com/challenges/drawing-book
 * New Year Chaos: https://www.hackerrank.com/challenges/new-year-chaos
 * Print Singly Linked List: https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list
+* Find Merge Point of Two Lists: https://www.hackerrank.com/challenges/find-the-merge-point-of-two-joined-linked-lists
+* Get Node Value: https://www.hackerrank.com/challenges/get-the-value-of-the-node-at-a-specific-position-from-the-tail
+* 
