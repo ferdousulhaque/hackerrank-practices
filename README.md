@@ -25,4 +25,6 @@ Link to the Hacker Rank Problems are given below:
 * Print Singly Linked List: https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list
 * Find Merge Point of Two Lists: https://www.hackerrank.com/challenges/find-the-merge-point-of-two-joined-linked-lists
 * Get Node Value: https://www.hackerrank.com/challenges/get-the-value-of-the-node-at-a-specific-position-from-the-tail
-* 
+* Flat Land Spacestations: https://www.hackerrank.com/challenges/flatland-space-stations
+* Print Reverse Singly Linked List: https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list-in-reverse/problem
+* Viral Advertisement: https://www.hackerrank.com/challenges/strange-advertising/problem
