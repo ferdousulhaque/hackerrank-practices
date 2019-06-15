@@ -29,3 +29,4 @@ Link to the Hacker Rank Problems are given below:
 * Print Reverse Singly Linked List: https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list-in-reverse/problem
 * Viral Advertisement: https://www.hackerrank.com/challenges/strange-advertising/problem
 * Love Letter: https://www.hackerrank.com/challenges/the-love-letter-mystery/problem
+* Game of Thrones - I: https://www.hackerrank.com/challenges/game-of-thrones/problem
