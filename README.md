@@ -30,3 +30,4 @@ Link to the Hacker Rank Problems are given below:
 * Viral Advertisement: https://www.hackerrank.com/challenges/strange-advertising/problem
 * Love Letter: https://www.hackerrank.com/challenges/the-love-letter-mystery/problem
 * Game of Thrones - I: https://www.hackerrank.com/challenges/game-of-thrones/problem
+* Special Palindrome Again - https://www.hackerrank.com/challenges/special-palindrome-again
