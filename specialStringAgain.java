@@ -10,56 +10,28 @@ public class specialStringAgain {
 
     // Complete the substrCount function below.
     static long substrCount(int n, String s) {
-        char[] word = s.toCharArray();
-        String conv;
-        char[] conv_word;
-        int count = word.length;
+        int length = s.length();
         int result = 0;
-        for(int i=0; i<count;i++){
-            for(int j=i+1;j<=count;j++){
-                conv = s.substring(i,j);
-                System.out.println(conv);
-                conv_word = conv.toCharArray();
-                if(conv_word.length == 1){
-                    result++;
-                }
-                else if(istAllSame(conv_word)){
-                    result += 2;
-                }else if(istPalindrom(conv_word)){
-                    result++;
-                }
+        for(int i=0; i<length;i++){
+            // if the current symbol is in the middle of palindrome
+            int offset = 1;
+            while (i - offset >= 0 && i + offset < length && s.charAt(i - offset) == s.charAt(i - 1)
+                    && s.charAt(i + offset) == s.charAt(i - 1)) {
+                        result++;
+                        offset++;
             }
+            // if this is repeatable characters aaaa
+            int repeats = 0;
+            while (i + 1 < length && s.charAt(i) == s.charAt(i + 1)) {
+                repeats++;
+                i++;
+            }
+		    result += repeats * (repeats + 1) / 2;
         }
         
-        // System.out.println(result);
-        return result;
+        //System.out.println(result+length);
+        return result+length;
 
-    }
-
-    public static boolean istAllSame(char[] word){
-        int i1 = 0;
-        int i2 = 0;
-        i1 = word[0];
-        for(int i =1; i<word.length; i++){
-            i2 = word[i];
-            if(i1 != i2){
-                return false;
-            }
-        }
-        return true;
-    }
-
-    public static boolean istPalindrom(char[] word){
-        int i1 = 0;
-        int i2 = word.length - 1;
-        while (i2 > i1) {
-            if (word[i1] != word[i2]) {
-                return false;
-            }
-            ++i1;
-            --i2;
-        }
-        return true;
     }
 
     private static final Scanner scanner = new Scanner(System.in);
