@@ -8,7 +8,7 @@ public class binaryGap {
         int flag = 0;
         int temp = 0;
         int count = 0;
-        int max = Integer.MIN_VALUE;
+        int max = 0;
         String x = "";
         while(a>0){
             n = a % 2;
@@ -29,7 +29,7 @@ public class binaryGap {
             }
         }
 
-        
+        System.out.println(x);
         return max;
     }
 
