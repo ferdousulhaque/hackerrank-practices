@@ -52,7 +52,7 @@ function equalStacks($h1, $h2, $h3) {
 }
 
 //$fptr = fopen(getenv("OUTPUT_PATH"), "w");
-$fptr = fopen("/home/ferdous/java/in.out", "w");
+$fptr = fopen(realpath ('.').'/in.out', "w");
 
 $stdin = fopen("php://stdin", "r");
 

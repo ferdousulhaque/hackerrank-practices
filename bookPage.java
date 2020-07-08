@@ -21,7 +21,8 @@ public class bookPage {
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("/home/ferdous/java/in.out"));
+        String executionPath = System.getProperty("user.dir");
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(executionPath.replace("\\", "/"))+"in.out"));
 
         int n = scanner.nextInt();
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])*");
