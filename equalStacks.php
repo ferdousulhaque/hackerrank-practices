@@ -1,5 +1,7 @@
 <?php
 
+putenv("OUTPUT_PATH=".realpath ('.').'/in.out');
+
 /*
  * Complete the equalStacks function below.
  */
@@ -51,8 +53,7 @@ function equalStacks($h1, $h2, $h3) {
     }
 }
 
-//$fptr = fopen(getenv("OUTPUT_PATH"), "w");
-$fptr = fopen(realpath ('.').'/in.out', "w");
+$fptr = fopen(getenv("OUTPUT_PATH"), "w");
 
 $stdin = fopen("php://stdin", "r");
 

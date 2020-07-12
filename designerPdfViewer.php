@@ -1,5 +1,7 @@
 <?php
 
+putenv("OUTPUT_PATH=".realpath ('.').'/in.out');
+
 // Complete the designerPdfViewer function below.
 function designerPdfViewer($h, $word) {
     $letterVal = $max = $j = 0;

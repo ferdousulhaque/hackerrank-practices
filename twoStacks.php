@@ -1,5 +1,7 @@
 <?php
 
+putenv("OUTPUT_PATH=".realpath ('.').'/in.out');
+
 /*
  * Complete the twoStacks function below.
  */
@@ -32,8 +34,7 @@ function twoStacks($x, $a, $b) {
     return $times;
 }
 
-//$fptr = fopen(getenv("OUTPUT_PATH"), "w");
-$fptr = fopen("/home/ferdous/hackerrank/in.out", "w");
+$fptr = fopen(getenv("OUTPUT_PATH"), "w");
 
 $stdin = fopen("php://stdin", "r");
 

@@ -1,5 +1,7 @@
 <?php
 
+putenv("OUTPUT_PATH=".realpath ('.').'/in.out');
+
 // Complete the minimumDistances function below.
 function minimumDistances($a) {
     foreach($a as $k => $v){
@@ -27,7 +29,7 @@ function getMin($a){
     return $min;
 }
 
-$fptr = fopen(realpath ('.').'/in.out', "w");
+$fptr = fopen(getenv("OUTPUT_PATH"), "w");
 
 $stdin = fopen("php://stdin", "r");
 
