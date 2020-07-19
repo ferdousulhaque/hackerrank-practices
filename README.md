@@ -31,3 +31,7 @@ Link to the Hacker Rank Problems are given below:
 * Love Letter: https://www.hackerrank.com/challenges/the-love-letter-mystery/problem
 * Game of Thrones - I: https://www.hackerrank.com/challenges/game-of-thrones/problem
 * Special Palindrome Again - https://www.hackerrank.com/challenges/special-palindrome-again
+* Beautiful Triplets - https://www.hackerrank.com/challenges/beautiful-triplets
+* Kaprekar Number - https://www.hackerrank.com/challenges/kaprekar-numbers
+* Time In Words - https://www.hackerrank.com/challenges/the-time-in-words
+* Cut the Sticks - https://www.hackerrank.com/challenges/cut-the-sticks
