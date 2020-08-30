@@ -35,3 +35,7 @@ Link to the Hacker Rank Problems are given below:
 * Kaprekar Number - https://www.hackerrank.com/challenges/kaprekar-numbers
 * Time In Words - https://www.hackerrank.com/challenges/the-time-in-words
 * Cut the Sticks - https://www.hackerrank.com/challenges/cut-the-sticks
+* Service Lane - https://www.hackerrank.com/challenges/service-lane/problem
+* Jumping on the Clouds - https://www.hackerrank.com/challenges/jumping-on-the-clouds
+* Repeated String - https://www.hackerrank.com/challenges/repeated-string
+* Append and Delete - https://www.hackerrank.com/challenges/append-and-delete
